@@ -53,7 +53,7 @@ import javax.ejb.Singleton;
 public class NameStorageBean {
 
     // name field
-    private String name = "World";
+    private String name = "Hudson, Maven, and WLS";
 
     public String getName() {
         return name;
