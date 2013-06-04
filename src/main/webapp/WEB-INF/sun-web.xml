@@ -44,7 +44,7 @@
  made subject to such option by the copyright holder.
 -->
 <sun-web-app error-url="">
-  <context-root>/HelloWebLogicMaven</context-root>
+  <context-root>/HelloWorldMaven</context-root>
   <class-loader delegate="true"/>
   <jsp-config>
     <property name="keepgenerated" value="true">
