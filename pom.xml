@@ -96,7 +96,7 @@
             </plugin>
             <plugin> 
                 <groupId>com.oracle.weblogic</groupId> 
-                <artifactId>wls-maven-plugin</artifactId> 
+                <artifactId>weblogic-maven-plugin</artifactId> 
                 <version>12.1.1.0</version> 
                 <configuration> 
                     <adminurl>${wls.adminurl}</adminurl>
@@ -106,7 +106,6 @@
                     <action>deploy</action> 
                     <remote>${wls.remote}</remote> 
                     <verbose>${wls.verbose}</verbose>
-                    <middlewareHome>${wls.middlewareHome}</middlewareHome>
                     <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source> 
                     <name>${wls.name}</name> 
                 </configuration> 
