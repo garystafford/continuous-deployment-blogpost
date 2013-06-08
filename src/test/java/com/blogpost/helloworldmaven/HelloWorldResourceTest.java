@@ -54,6 +54,5 @@ public class HelloWorldResourceTest {
         helloWorldResource.putXml("Test Value");
         String result = helloWorldResource.getXml();
         assertEquals(expResult, result);
-
     }
 }

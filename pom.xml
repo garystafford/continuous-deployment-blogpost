@@ -49,7 +49,6 @@
                 <version>2.1.1</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
-                    <webappDirectory>${wls.name}</webappDirectory>
                 </configuration>
             </plugin>
             <plugin>
@@ -121,4 +120,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
