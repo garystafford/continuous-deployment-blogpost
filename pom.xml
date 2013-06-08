@@ -49,6 +49,7 @@
                 <version>2.1.1</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <webappDirectory>${wls.name}</webappDirectory>
                 </configuration>
             </plugin>
             <plugin>
@@ -107,7 +108,7 @@
                     <remote>${wls.remote}</remote> 
                     <verbose>${wls.verbose}</verbose>
                     <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source> 
-                    <name>${wls.name}</name> 
+                    <name>${wls.name}</name>
                 </configuration> 
                 <executions> 
                     <execution> 
