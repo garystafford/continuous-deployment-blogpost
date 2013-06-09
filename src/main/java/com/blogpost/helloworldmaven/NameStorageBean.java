@@ -53,7 +53,7 @@ import javax.ejb.Singleton;
 public class NameStorageBean {
 
     // name field
-    private String name = "WebLogic Server";
+    private String name = "Hudson, Maven, and WLS";
 
     public String getName() {
         return name;
