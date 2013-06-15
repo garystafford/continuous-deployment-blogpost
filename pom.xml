@@ -98,7 +98,7 @@
                 <groupId>com.oracle.weblogic</groupId> 
                 <artifactId>weblogic-maven-plugin</artifactId> 
                 <version>12.1.1.0</version> 
-                <configuration> 
+                <configuration>
                     <adminurl>${wls.adminurl}</adminurl>
                     <user>${wls.user}</user> 
                     <password>${wls.password}</password> 
@@ -111,10 +111,10 @@
                 </configuration> 
                 <executions> 
                     <execution> 
-                        <phase>install</phase> 
+                        <phase>deploy</phase> 
                         <goals> 
                             <goal>deploy</goal> 
-                        </goals> 
+                        </goals>
                     </execution> 
                 </executions> 
             </plugin>
