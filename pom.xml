@@ -30,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>${artifactId}-${version}-${BUILD_NUMBER}</finalName>
+        <finalName>${project.artifactId}-${project.version}-${BUILD_NUMBER}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
