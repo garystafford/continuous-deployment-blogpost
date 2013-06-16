@@ -109,6 +109,7 @@
                     <verbose>${wls.verbose}</verbose>
                     <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source> 
                     <name>${wls.name}</name>
+                    <appversion>${BUILD_NUMBER}</appversion>
                 </configuration> 
                 <executions> 
                     <execution> 
