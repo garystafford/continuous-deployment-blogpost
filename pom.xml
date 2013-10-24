@@ -89,7 +89,7 @@
                         </goals>
                         <configuration>
                             <files>
-                                <file>maven.properties</file>
+                                <file>maven_wls_local.properties</file>
                             </files>
                         </configuration>
                     </execution>
