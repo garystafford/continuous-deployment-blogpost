@@ -72,7 +72,7 @@ public class HelloWorldResource {
     @GET
     @Produces("text/html")
     public String getXml() {
-        return String.format("<html><body><h1>Hello {0}!</h1></body></html>",
+        return String.format("<html><body><h1>Hello %s!</h1></body></html>",
                 nameStorage.getName());
     }
 
